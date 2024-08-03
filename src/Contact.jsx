@@ -51,13 +51,13 @@ const Contact = () => {
                 <div className='my-20'>
         <div className='text-black font-bold text-4xl flex' ref= {ref} > 
           <motion.div variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.5, stiffness: 400}} className = "mr-3" > Get  </motion.div>      
-          <motion.div variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.6, stiffness: 400}} className = "mr-3" > set  </motion.div> 
+          <motion.div variants = {{none: {y: 0}, jump: {y : [70, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.6, stiffness: 400}} className = "mr-3" > set  </motion.div> 
           <motion.div  variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.7, stiffness: 400}}className = "mr-3" > to  </motion.div> 
-          <motion.div variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.8, stiffness: 400}} className = "mr-3" > build  </motion.div> 
+          <motion.div variants = {{none: {y: 0}, jump: {y : [70, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.8, stiffness: 400}} className = "mr-3" > build  </motion.div> 
           <motion.div variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.9, stiffness: 400}} className = "mr-3" > your  </motion.div> 
-          <motion.div variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:1, stiffness: 400}} className = "mr-3" > website  </motion.div> 
+          <motion.div variants = {{none: {y: 0}, jump: {y : [70, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:1, stiffness: 400}} className = "mr-3" > website  </motion.div> 
           <motion.div variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:1.1, stiffness: 400}} > together  </motion.div> 
-          <motion.div variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:1.2, stiffness: 400}}>  ...  </motion.div> 
+          <motion.div variants = {{none: {y: 0}, jump: {y : [70, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:1.2, stiffness: 400}}>  ...  </motion.div> 
           
           
           
