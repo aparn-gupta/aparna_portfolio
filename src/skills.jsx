@@ -96,7 +96,7 @@ const Skills = () => {
         <button className=' h-14 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white font-xl hover:text-black font-bold
-  hover:border-black hover:border-2  px-8'  onClick = {handleMail}  > Get in Touch! </button>
+  hover:border-black hover:border-2  px-8 mr-2'  onClick = {handleMail}  > Get in Touch! </button>
 
 
 
