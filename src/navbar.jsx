@@ -41,13 +41,15 @@ const handleContact = (e) => {
          <img src='https://windowscustomization.com/wp-content/uploads/2019/09/Minimal-Wavescape.gif' className='w-screen h-screen' />
          <div className=' text-white text-lg absolute top-0 left-0 w-full flex justify-center  '>
            
-            <ul className='absolute top-12 flex justify-between w-1/3 '>
-           <Link to= "/" >  <li className='hover:text-lime-400 hover:animate-bounce'  >  Home </li></Link>
+            <div className='absolute flex justify-between w-1/3 top-12 z-40'>
+           <Link to= "/" >  <div className='hover:text-lime-400 hover:animate-bounce'  >  Home </div></Link>
               
-                <li className='hover:text-lime-400 hover:animate-bounce' onClick={handleScroll} > Work </li>
-                <li  className='hover:text-lime-400 hover:animate-bounce' onClick = {handleContact} > Contact me</li>
-                <Link  to=  '/aboutme' >  <li className='hover:text-lime-400 hover:animate-bounce'  > More </li>  </Link>
-            </ul> 
+                <div className='hover:text-lime-400 hover:animate-bounce' onClick={handleScroll} > Work </div>
+                <div  className='hover:text-lime-400 hover:animate-bounce' onClick = {handleContact} > Contact me</div>
+                <Link  to=  '/aboutme' >  <div className='hover:text-lime-400 hover:animate-bounce'  > More </div>  </Link>
+                 
+               
+            </div> 
 
 
 
@@ -58,6 +60,7 @@ const handleContact = (e) => {
           <div className='w-4/5'>
           <div className='w-3/4'>
                 <p className='text-white text-7xl font-bold '> Howdy,  </p>
+              
                 <p className='text-white text-7xl font-bold mt-2'>  I'm Aparna  </p>
                 <p className='text-white text-7xl font-bold mt-2'> Fullstack Developer</p>
                 <p className='text-lime-400 text-5xl font-bold mt-3 animate-none'>and <span className='text-lime-400'> <Typewriter 
