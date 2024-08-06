@@ -24,7 +24,7 @@ const Edtech = () => {
 
 
   return (
-    <div className='w-screen flex justify-center bg-gradient-to-b from-slate-50 to-lime-50 py-12'>
+    <div className='w-screen flex justify-center bg-gradient-to-b from-slate-50 to-lime-50 py-12 '>
     <div className='w-3/4 flex justify-between'>
     <Link to = "https://edtech-website-tawny.vercel.app/" >  <img src= {image3}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
 
@@ -35,17 +35,17 @@ const Edtech = () => {
 <motion.div ref = {ref}  className = "w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 
 <div> 
-  <p className='mb-3'> A feature-rich fully responsive educational technology 
+  <p className='mb-3'>   A feature-rich fully responsive educational technology 
   web application designed to enhance online learning experiences.  </p>
  <ul>
-<li>Leveraged modern web development tools and practices to 
+<li> <span className='font-semibold '> Modern UI Design: </span> Leveraged modern web development tools and practices to 
 create an interactive, responsive, and user-friendly interface, 
 enhancing the user interface with modern design principles. </li>
-<li>
+<li> <span className='font-semibold '> Functional Components: </span> 
 Implemented functional components and hooks to manage 
 state and lifecycle, ensuring efficient and maintainable code. 
 </li>
-<li>
+<li> <span className='font-semibold '> Dynamic Routing: </span> 
 Utilized React Router for seamless client-side navigation, 
 improving user experience with dynamic routing.</li> </ul> </div>
 

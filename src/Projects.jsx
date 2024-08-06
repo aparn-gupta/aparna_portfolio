@@ -24,7 +24,7 @@ const Projects = () => {
 
 
   return (
-    <div   className=' w-screen flex justify-center py-12 bg-gradient-to-t from-slate-50 to-lime-50'>
+    <div   className=' w-screen flex justify-center pt-12 bg-gradient-to-t from-slate-50 to-lime-50'>
        <div className='w-3/4 flex justify-between'>
       <div className='w-1/2'>
       <h1 className='font-bold text-3xl mt-16 mb-4 bg-gradient-to-r from-slate-600 via-lime-400 to-lime-900 w-36 text-transparent bg-clip-text'> PROJECTS </h1>
@@ -37,17 +37,17 @@ using React and used advanced features like hooks, creating an
 interactive user interface. Implemented simulated authentication, 
 and dynamic user interactions.</p>
  <ul>
-<li> Implemented state management and component lifecycle 
+<li> <span className='font-semibold '> State Management:  </span> Implemented state management and component lifecycle 
 methods with React hooks, and routing and navigation through 
 React-router.  </li>
-<li>
+<li> <span className='font-semibold '>Dynamic Feed: </span>
 Created a dynamic feed where users can post updates, like and 
 comment on posts and view posts and stories. 
 </li>
-<li>
+<li> <span className='font-semibold '> Local Storage: </span>
 Utilized local storage for saving user posts, stories, and login 
 data. </li> 
-<li>
+<li> <span className='font-semibold '> Version Control: </span>
 Used version control (Git) for source code management.  </li></ul> </div>
 
 <div className='flex  mt-12 '  ref={referr}  >

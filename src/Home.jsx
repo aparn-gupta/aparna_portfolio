@@ -21,8 +21,10 @@ const Home = () => {
    <Projects />
    <Edtech />
   
-   {/* <Anime />
-   <Restapi /> */}
+   {/* <Restapi /> */}
+   <Anime />
+ 
+  
    <Experience />
    <Contact />
 

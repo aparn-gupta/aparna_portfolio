@@ -31,9 +31,9 @@ const Experience = () => {
 
 
   return (
-    <div className='flex justify-center w-screen bg-gradient-to-t from-slate-50 to-lime-50'  id='experience' >
+    <div className='flex justify-center w-screen bg-gradient-to-t from-slate-50 to-lime-50 pt-20'  id='experience' >
        <div className='w-4/5  flex justify-center p-12  bg-slate-50' > 
-     <div>
+     <div className=''>
      <h1 className='font-bold text-3xl mb-12 bg-gradient-to-r from-slate-600 via-lime-400 to-lime-900 w-80 text-transparent bg-clip-text'> PROFESSIONAL ROLES </h1>
      <h2 className='mt-6 text-3xl font-bold w-96'> Frontend Developer Intern </h2>
      <motion.div  ref= {ref} className = 'h-1 w-2 border-t-8 border-lime-400 mb-6' variants = {{short: {width: 20 }, long: {width: 570} }} intial = "short"  animate = {borderanime} transition = {{type: 'spring', duration: 8, stiffness: 400 }} > </motion.div>
