@@ -25,13 +25,13 @@ const Projects = () => {
 
   return (
     <div   className=' w-screen flex justify-center pt-12 bg-gradient-to-t from-slate-50 to-lime-50'>
-       <div className='w-3/4 flex justify-between'>
-      <div className='w-1/2'>
+       <div className='lg:w-3/4 w-5/6 lg:flex lg:justify-between'>
+      <div className='w-full lg:w-1/2'>
       <h1 className='font-bold text-3xl mt-16 mb-4 bg-gradient-to-r from-slate-600 via-lime-400 to-lime-900 w-36 text-transparent bg-clip-text'> PROJECTS </h1>
 
 <h2 className='mt-8 text-3xl font-bold '> InterAct: Networking App</h2>
-<motion.div ref = {referr}  className = "w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
-
+<motion.div ref = {referr}  className = "hidden lg:block  w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
+<motion.div ref = {referr}  className = "block lg:hidden  w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 <div>  <p className='mb-2.5' >A networking web app with design inspired by Facebook 
 using React and used advanced features like hooks, creating an 
 interactive user interface. Implemented simulated authentication, 
@@ -50,19 +50,19 @@ data. </li>
 <li> <span className='font-semibold '> Version Control: </span>
 Used version control (Git) for source code management.  </li></ul> </div>
 
-<div className='flex  mt-12 '  ref={referr}  >
+<div className='flex  mt-12 text-xs lg:text-lg '  ref={referr}  >
 {/* <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> React.js </p>
      <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> Tailwind CSS</p>
      <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> Material-UI</p>
      <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> React-slick</p> */}
 
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400 px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'disappear' animate = {mainControls} > React.js </motion.div>
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400 px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'disappear' animate = {mainControls} > Tailwind CSS </motion.div>
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400 px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.4}} initial = 'disappear' animate = {mainControls} > Material-UI </motion.div>
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400 px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' animate = {mainControls} > React-slick </motion.div> 
 
    
@@ -79,7 +79,7 @@ transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' a
       </div>
 
 
-     <Link to = "https://networking-site.vercel.app/" >  <img src= {image2}  className='w-96 h-72 mt-44 border-2 border-slate-100 rounded-2xl   object-contain hover:shadow-2xl' /> </Link>
+     <Link to = "https://networking-site.vercel.app/" >  <img src= {image2}  className='w-96 h-72 lg:mt-44 border-2 border-slate-100 rounded-2xl   object-contain hover:shadow-2xl' /> </Link>
 
 
 

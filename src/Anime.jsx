@@ -26,13 +26,13 @@ const Anime = () => {
 
   return (
     <div className=' w-screen flex justify-center bg-gradient-to-t from-slate-50 to-lime-50'>
-    <div className='w-3/4 flex justify-between'>
-   <div className='w-1/2'>
+    <div className=' w-5/6  lg:w-3/4 lg:flex justify-between'>
+   <div className=' w-full lg:w-1/2 '>
   
 
 <h2 className='mt-8 text-3xl font-bold '> AI Fashion Assistant </h2>
-<motion.div ref = {ref}  className = "w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
-
+<motion.div ref = {ref}  className = " hidden lg:block w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
+<motion.div ref = {ref}  className = " block lg:hidden w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 <div> 
   <p className='mb-3'> A chat application using the Gemini API that serves as a 
     virtual fashion assistant, designed to help users with a wide range 
@@ -53,17 +53,17 @@ inquiries, helping users make informed style choices.</li> */}
 
  </ul> </div>
 
-<div className='flex  mt-12' ref={ref}>
+<div className='flex   text-xs lg:text-lg mt-12' ref={ref}>
 {/* <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> React.js </p>
   <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> Tailwind CSS</p>
   <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> Material-UI</p>
   <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> React-slick</p> */}
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'disappear' animate = {mainControls} > REST APIs </motion.div> 
 
-  <motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+  <motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'disappear' animate = {mainControls} > React.js </motion.div>
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.4}} initial = 'disappear' animate = {mainControls} > Tailwind CSS </motion.div>
    
 

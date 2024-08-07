@@ -25,15 +25,15 @@ const Edtech = () => {
 
   return (
     <div className='w-screen flex justify-center bg-gradient-to-b from-slate-50 to-lime-50 py-12 '>
-    <div className='w-3/4 flex justify-between'>
-    <Link to = "https://edtech-website-tawny.vercel.app/" >  <img src= {image3}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
+    <div className='w-5/6   lg:w-3/4 lg:flex justify-between'>
+    <Link to = "https://edtech-website-tawny.vercel.app/" className='hidden lg:block' >  <img src= {image3}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
 
-   <div className='w-1/2'>
+   <div className='w-full lg:w-1/2'>
   
 
 <h2 className='mt-8 text-3xl font-bold '> Edtech App</h2>
-<motion.div ref = {ref}  className = "w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
-
+<motion.div ref = {ref}  className = "hidden lg:block w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
+<motion.div ref = {ref}  className = "block lg:hidden  w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 <div> 
   <p className='mb-3'>   A feature-rich fully responsive educational technology 
   web application designed to enhance online learning experiences.  </p>
@@ -49,10 +49,10 @@ state and lifecycle, ensuring efficient and maintainable code.
 Utilized React Router for seamless client-side navigation, 
 improving user experience with dynamic routing.</li> </ul> </div>
 
-<div className='flex  mt-12'  ref={ref} >
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{hidden: {opacity: 0, scale: 0.4}, visible: {opacity : 1, scale: 1}}}
+<div className='flex  mt-12   text-xs lg:text-lg'  ref={ref} >
+<motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{hidden: {opacity: 0, scale: 0.4}, visible: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'hidden' animate = {mainControls} > React.js </motion.div>
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{hidden: {opacity: 0, scale: 0.4}, visible: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{hidden: {opacity: 0, scale: 0.4}, visible: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'hidden' animate = {mainControls} > Tailwind CSS </motion.div>
 
 
@@ -67,6 +67,8 @@ transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'hidden' anim
 <div className=' hidden h-14 w-8 border-2 border-b-black border-r-black mt-8   '> </div></div>
    </div>
 
+
+   <Link to = "https://edtech-website-tawny.vercel.app/" className='block lg:hidden' >  <img src= {image3}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
 
  
 
