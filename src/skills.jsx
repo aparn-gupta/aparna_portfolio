@@ -96,7 +96,7 @@ const Skills = () => {
       and now I am obsessed with crafting sleek, interactive web apps and websites. 
       I thrive on building user interfaces that are not just functional but also seriously cool. Let's create something amazing together!</div>
 
-        <div className='flex w-3/4 justify-between'> 
+        <div className='flex  w-full lg:w-3/4 justify-between'> 
 
         <button className=' h-14 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600

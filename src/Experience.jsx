@@ -41,7 +41,7 @@ const Experience = () => {
      <motion.div  ref= {ref} className = 'hidden lg:block h-1 w-2 border-t-8 border-lime-400 mb-6' variants = {{short: {width: 20 }, long: {width: 550} }} intial = "short"  animate = {borderanime} transition = {{type: 'spring', duration: 8, stiffness: 400 }} > </motion.div>
       
        <h2 className='my-6 text-2xl font-semibold lg:w-72'> Xzect Labs Pvt Ltd </h2>
-    <div className='flex justify-between text-lime-700 text-lg mb-8 '><p>June 2024 - August 2024 </p>  <p> 2 months</p>  </div>
+    <div className='lg:flex justify-between text-lime-700 text-lg mb-8 '><p>June 2024 - August 2024 </p>  <p> 2 months</p>  </div>
     <div className=''>  
 
     <p className='font-bold mt-6 mb-2'> Chatbot Development for Hearing Care Advisor:</p>

@@ -109,7 +109,7 @@ const Aboutme = () => {
         </div>
 
 
-       <div className='flex justify-between text-lime-400  w-2/5 lg:w-1/5  mt-6'   id = "footer-contacts" >
+       <div className='flex justify-between text-lime-400  w-1/2 lg:w-1/5  mt-6'   id = "footer-contacts" >
                     <Link to="https://github.com/aparn-gupta" > <motion.div  whileHover = {{scale: 1.6, color: "white" }} transition = {{type : "spring", stiffness: 400}} > <GitHubIcon sx={{width: "2.2rem", height: "2.2rem", }}   className='hover:text-white w-20 h-20'  />  </motion.div>     </Link>
                   <div onClick =  {handleMail}>  <motion.div  whileHover = {{scale: 1.6, color: 'white'}} transition = {{type: 'spring', stiffness: 400}} >  <EmailIcon sx={{width: "2.2rem", height: "2.2rem"}} className='hover:text-white' /> </motion.div>  </div>
                   <Link to="https://www.linkedin.com/in/aparna813/" >  <motion.div whileHover = {{scale: 1.6, color: 'white'}} transition = {{type: 'spring', stiffness: 400 }} >  <LinkedInIcon sx={{width: "2.2rem", height: "2.2rem"}}  className='hover:text-white'/> </motion.div>    </Link>

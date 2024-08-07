@@ -40,7 +40,7 @@ const Contact = () => {
     
    
     </div>
-        <div className='flex justify-between text-black w-1/2 lg:w-1/4 mt-6'>
+        <div className='flex justify-between text-black w-1/2 lg:w-1/4  mt-16 lg:mt-6'>
                     <Link to="https://github.com/aparn-gupta" > <motion.div  whileHover = {{scale: 1.4, color: "white" }} transition = {{type : "spring", stiffness: 400}} > <GitHubIcon sx={{width: "2.5rem", height: "2.5rem", }}   className='hover:text-lime-400 w-20 h-20'  />  </motion.div>     </Link>
                    <div onClick={handleMail}> <motion.div  whileHover = {{scale: 1.4, color: 'white'}} transition = {{type: 'spring', stiffness: 400}} >  <EmailIcon sx={{width: "2.5rem", height: "2.5rem"}} className='hover:text-lime-400' /> </motion.div>  </div>
                   <Link to="https://www.linkedin.com/in/aparna813/" >  <motion.div whileHover = {{scale: 1.4, color: 'white'}} transition = {{type: 'spring', stiffness: 400 }} >  <LinkedInIcon sx={{width: "2.5rem", height: "2.5rem"}}  className='hover:text-lime-400'/> </motion.div>    </Link>
@@ -49,7 +49,7 @@ const Contact = () => {
 </div>
 
                 <div className='my-20'>
-        <div className='text-black font-bold  text-xl lg:text-4xl flex' ref= {ref} > 
+        <div className='text-black font-bold  text-lg lg:text-4xl flex' ref= {ref} > 
           <motion.div variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.5, stiffness: 400}} className = "mr-1.5 lg:mr-3" > Get  </motion.div>      
           <motion.div variants = {{none: {y: 0}, jump: {y : [70, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.6, stiffness: 400}} className = "mr-1.5 lg:mr-3" > set  </motion.div> 
           <motion.div  variants = {{none: {y: 0}, jump: {y : [-80, 0]} }}  intiial = "none" animate = {elementJump}  transition = {{type: 'spring', duration: 0.5, delay:0.7, stiffness: 400}}className = "mr-1.5 lg:mr-3" > to  </motion.div> 
