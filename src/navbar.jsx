@@ -62,7 +62,7 @@ const handleContact = (e) => {
                 <p className='text-white text-5xl lg:text-7xl font-bold '> Howdy,  </p>
               
                 <p className='text-white text-5xl lg:text-7xl font-bold mt-2'>  I'm Aparna  </p>
-                <p className='text-white text-5xl lg:text-7xl font-bold mt-2'> Fullstack Developer</p>
+                <p className='text-white text-5xl lg:text-7xl font-bold mt-2'> Frontend Developer</p>
                 <p className='text-lime-400   text-4xl lg:text-5xl font-bold mt-3 animate-none'>and <span className='text-lime-400'> <Typewriter 
                  words = {["a mountain wanderer", "an organising freak",  "an animal-rights enthusiast", "a bulk memeposter", "a brew junkie", "a whitepiller" ]}  loop = {30} />   </span>  </p>
            

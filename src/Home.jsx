@@ -8,6 +8,7 @@ import Experience from './Experience';
 import Footer from './Footer';
 import Navbar from './navbar';
 import Contact from './Contact';
+import Networking from './Networking';
 
 
 
@@ -18,11 +19,14 @@ const Home = () => {
 <div className=''>
 <Navbar />
       <Skills/>
+
    <Projects />
-   <Edtech />
-  
-   {/* <Restapi /> */}
+   <Restapi />
    <Anime />
+   
+   <Edtech />
+   <Networking />  
+ 
  
   
    <Experience />

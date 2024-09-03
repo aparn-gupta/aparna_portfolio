@@ -60,7 +60,7 @@ transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'hidden' anim
 </div>
 
 
-<div className='flex'> <Link  to= "https://edtech-website-tawny.vercel.app/" ><motion.div whileHover = {{x: 64}}  transition = {{type: 'spring', stiffness: 400,   duration: 1}} whileFocus = {{scale: 1.5}}   >   <button className=' h-14 w-36 mt-8 
+<div className='flex'> <Link  to= "https://github.com/aparn-gupta/edtech-website" ><motion.div whileHover = {{x: 64}}  transition = {{type: 'spring', stiffness: 400,   duration: 1}} whileFocus = {{scale: 1.5}}   >   <button className=' h-14 w-36 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white text-lg hover:text-black font-bold
   hover:border-black hover:border-2    '> Github  <OpenInNewIcon /> </button>  </motion.div> </Link>

@@ -31,7 +31,7 @@ const Experience = () => {
 
 
   return (
-    <div className='flex justify-center w-screen bg-gradient-to-t from-slate-50 to-lime-50 pt-20'  id='experience' >
+    <div className='flex justify-center w-screen bg-gradient-to-t from-slate-50 to-slate-50 pt-20'  id='experience' >
        <div className='lg:w-4/5 w-11/12 flex justify-center p-12  bg-slate-50' > 
      <div className=''>
      <h1 className='font-bold text-3xl mb-12 bg-gradient-to-r from-slate-600 via-lime-400 to-lime-900 lg:w-80 text-transparent bg-clip-text'> PROFESSIONAL ROLES </h1>
@@ -44,9 +44,9 @@ const Experience = () => {
     <div className='lg:flex justify-between text-lime-700 text-lg mb-8 '><p>June 2024 - August 2024 </p>  <p> 2 months</p>  </div>
     <div className=''>  
 
-    <p className='font-bold mt-6 mb-2'> Chatbot Development for Hearing Care Advisor:</p>
+    <p className='font-bold mt-6 mb-2'> Chatbot Development for Fashion, styling, makeup and haircare:</p>
 
-<ul>  <li> Implemented a chatbot using the ChatGPT API to provide information on hearing health and care.  </li> 
+<ul>  <li> Implemented a chatbot using the ChatGPT API to provide information on fashion and styling.  </li> 
 <li>Integrated predefined prompts to address common queries, enhancing user interaction and support.</li>
 </ul>
 
