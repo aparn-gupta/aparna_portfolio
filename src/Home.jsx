@@ -9,6 +9,7 @@ import Footer from './Footer';
 import Navbar from './navbar';
 import Contact from './Contact';
 import Networking from './Networking';
+import Gnews from './News';
 
 
 
@@ -23,9 +24,12 @@ const Home = () => {
    <Projects />
    <Restapi />
    <Anime />
+   <Gnews />
    
-   <Edtech />
+  
    <Networking />  
+   <Edtech />
+  
  
  
   
@@ -34,6 +38,7 @@ const Home = () => {
 
       </div>
       <Footer />
+
 
 
       

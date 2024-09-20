@@ -53,9 +53,11 @@ transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'disappear' ani
 <motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'disappear' animate = {mainControls} > REST APIs </motion.div>
 <motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
-transition = {{type: 'spring', duration: 2, delay: 0.4}} initial = 'disappear' animate = {mainControls} > Tailwind CSS </motion.div>
+transition = {{type: 'spring', duration: 2, delay: 0.4}} initial = 'disappear' animate = {mainControls} > TypeScript </motion.div>
+
 <motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
-transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' animate = {mainControls} > Axios </motion.div> 
+transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' animate = {mainControls} > Tailwind CSS </motion.div>
+
 
    
 
