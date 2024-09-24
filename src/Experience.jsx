@@ -46,7 +46,7 @@ const Experience = () => {
 
     <p className='font-bold mt-6 mb-2'> Chatbot Development for Fashion, styling, makeup and haircare:</p>
 
-<ul>  <li> Implemented a chatbot using the ChatGPT API to provide information on fashion and styling.  </li> 
+<ul>  <li> Implemented a chatbot using the Gemini API to provide information on fashion and styling.  </li> 
 <li>Integrated predefined prompts to address common queries, enhancing user interaction and support.</li>
 </ul>
 

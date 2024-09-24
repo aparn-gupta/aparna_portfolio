@@ -8,3 +8,13 @@
     color: #a3f4391b
 }
 
+
+
+@media (max-width: 768px) {
+    .text-skills {
+        font-size: 0.65rem;
+
+    }
+    
+
+}

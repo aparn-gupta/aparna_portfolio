@@ -48,51 +48,43 @@ const Skills = () => {
 
      <div className=' w-full lg:w-2/3  '>
 
-    <div className='flex justify-between  text-xs lg:text-lg'>
-    {/* <p className='bg-black text-white text-lg px-4 h-8'> React.js </p>
-     <p className='bg-black text-white text-lg px-4 h-8'> JavaScript</p>
-     <p className='bg-black text-white text-lg px-4 h-8'> Next.js</p>
-     <p className='bg-black text-white text-lg px-4 h-8'> TypeScript </p>
-     <p className='bg-black text-white text-lg px-4 h-8'> REST APIs </p> */}
+    <div className='flex justify-between  text-skills md:text-lg'>
+  
 
      
-    <motion.div  className='bg-black text-white  px-2 lg:px-3.5 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-3.5 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 0}} initial = 'disappear' animate =  {mainControls} >  React.js </motion.div>
-    <motion.div  className='bg-black text-white  px-2 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 0.2}} initial = 'disappear' animate =  {mainControls} >  JavaScript </motion.div>
-    <motion.div  className='bg-black text-white  px-2 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 0.4}} initial = 'disappear' animate =  {mainControls} >  Next.js </motion.div>
-    <motion.div  className='bg-black text-white  px-2 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 0.6}} initial = 'disappear' animate =  {mainControls} >  TypeScript </motion.div>
-    <motion.div  className='bg-black text-white  px-2 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 0.8}} initial = 'disappear' animate =  {mainControls} >  REST APIs </motion.div>
-     <motion.div  className='bg-black text-white  px-2 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1}} initial = 'disappear' animate =  {mainControls} >  Redux </motion.div>
-     <motion.div  className='bg-black text-white  px-2 lg:px-3.5 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} >  Sass </motion.div>
+     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    transition = {{duration: 2, type :'spring', delay: 1}} initial = 'disappear' animate =  {mainControls} >    PHP </motion.div>
+     <motion.div  className='bg-black text-white  px-1 lg:px-3.5 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} >  Redux </motion.div>
 
     
    
     </div>
 
-    <div className='flex justify-between mt-3  text-xs lg:text-lg'>
-    {/* <p className='bg-black text-white  px-2 lg:px-4 py-2'> Tailwind CSS </p>
-     <p className='bg-black text-white  px-2.5 lg:px-4 py-2'> Material UI </p>
-     <p className='bg-black text-white  px-2.5 lg:px-4 py-2'> HTML/CSS </p>     
-     <p className='bg-black text-white  px-2.5 lg:px-4 py-2'> Python  </p>
-     <p className='bg-black text-white  px-2.5 lg:px-4 py-2'> MySQL </p> */}
+    <div className='flex justify-between mt-3  text-skills lg:text-lg'>
+ 
 
-<motion.div  className='bg-black text-white  px-2.5 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+<motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} > Bootstrap </motion.div>
-    <motion.div  className='bg-black text-white  px-2.5 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 1.4}} initial = 'disappear' animate =  {mainControls} >  Tailwind CSS </motion.div>
-    <motion.div  className='bg-black text-white  px-2.5 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 1.6}} initial = 'disappear' animate =  {mainControls} > Material-UI</motion.div>
-    <motion.div  className='bg-black text-white  px-2.5 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 1.6}} initial = 'disappear' animate =  {mainControls} >  HTML/CSS  </motion.div>
-    <motion.div  className='bg-black text-white  px-2.5 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 1.8}} initial = 'disappear' animate =  {mainControls} >  Python </motion.div>
-     <motion.div  className='bg-black text-white  px-2.5 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
+     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 2}} initial = 'disappear' animate =  {mainControls} >  MySQL </motion.div>
     
      </div>

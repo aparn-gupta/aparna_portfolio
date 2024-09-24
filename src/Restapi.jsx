@@ -25,15 +25,15 @@ const Restapi = () => {
 
   return (
     <div className=' w-screen flex justify-center bg-gradient-to-b from-slate-50 to-lime-50'>
-    <div className='w-3/4 flex justify-between'>
+    <div className='w-5/6   lg:w-3/4 lg:flex justify-between'>
     <Link to = "https://weather-app-xi-gules-50.vercel.app/" >  <img src= {image7}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
 
-   <div className='w-1/2'>
+   <div className='w-full lg:w-1/2'>
   
 
 <h2 className='mt-8 text-3xl font-bold '> Live Weather: Indian Localities</h2>
-<motion.div ref = {ref}  className = "w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
-
+<motion.div ref = {ref}  className = "hidden lg:block w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
+<motion.div ref = {ref}  className = "block lg:hidden  w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 <div> <p className='mb-3'> A weather application that provides weather data for various localities acrosss Indian cities  </p>
  <ul>
 <li> <span className='font-bold'> Seamless Search Options: </span> Offers two methods to explore live weather data—by entering a locality or by using coordinates. </li>
@@ -48,16 +48,15 @@ const Restapi = () => {
 <div className='flex  mt-12' ref={ref}>
 
   
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
-transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'disappear' animate = {mainControls} > Next.js </motion.div>
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'disappear' animate = {mainControls} > Next.js </motion.div> 
+
+  <motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'disappear' animate = {mainControls} > REST APIs </motion.div>
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.4}} initial = 'disappear' animate = {mainControls} > TypeScript </motion.div>
-
-<motion.div className = 'bg-lime-400 text-lg px-4 h-8 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+<motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' animate = {mainControls} > Tailwind CSS </motion.div>
-
 
    
 

@@ -54,10 +54,7 @@ inquiries, helping users make informed style choices.</li> */}
  </ul> </div>
 
 <div className='flex   text-xs lg:text-lg mt-12' ref={ref}>
-{/* <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> React.js </p>
-  <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> Tailwind CSS</p>
-  <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> Material-UI</p>
-  <p className='bg-lime-400 text-lg px-4 h-8 mr-2'> React-slick</p> */}
+
 <motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
 transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'disappear' animate = {mainControls} > Next.js </motion.div> 
 
