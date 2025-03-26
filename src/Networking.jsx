@@ -64,7 +64,7 @@ transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' a
 </div>
 
 
-<div className='flex'> <Link  to= "https://github.com/aparn-gupta/networking-site" ><motion.div whileHover = {{x: 64}}  transition = {{type: 'spring', stiffness: 400,   duration: 1}} whileFocus = {{scale: 1.5}}   >   <button className=' h-14 w-36 mt-8 
+<div className='flex'> <Link  to= "https://github.com/aparn-gupta/networking-site" target='_blank' ><motion.div whileHover = {{scale: 1.19}}  transition = {{type: 'spring', stiffness: 400,   duration: 1}}  >   <button className=' h-14 w-36 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white text-lg hover:text-black font-bold
   hover:border-black hover:border-2    '> Github  <OpenInNewIcon />  </button>  </motion.div> </Link>
@@ -73,7 +73,7 @@ transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' a
       </div>
 
 
-     <Link to = "https://networking-site.vercel.app/" >  <img src= {image2}  className='w-96 h-72 lg:mt-44 border-2 border-slate-100 rounded-2xl   object-contain hover:shadow-2xl' /> </Link>
+     <Link to = "https://networking-site.vercel.app/" target='_blank'  >  <img src= {image2}  className='w-96 h-72 lg:mt-44 border-2 border-slate-100 rounded-2xl   object-contain hover:shadow-2xl' /> </Link>
 
 
 

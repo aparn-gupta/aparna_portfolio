@@ -46,7 +46,7 @@ const Skills = () => {
    <div className='flex justify-center lg:block'>   <img src= {image1}  className='w-5/6 lg:w-3/4 h-96 object-cover rounded-2xl mb-16 lg:mb-0'/>
    </div>
 
-     <div className=' w-full lg:w-2/3  '>
+     <div className=' w-full lg:w-3/4  '>
 
     <div className='flex justify-between  text-skills md:text-lg'>
   
@@ -55,17 +55,17 @@ const Skills = () => {
     <motion.div  className='bg-black text-white  px-1 lg:px-3.5 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
     transition = {{duration: 2, type :'spring', delay: 0}} initial = 'disappear' animate =  {mainControls} >  React.js </motion.div>
     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0.2}} initial = 'disappear' animate =  {mainControls} >  JavaScript </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 0.2}} initial = 'disappear' animate =  {mainControls} >  Node.js </motion.div>
     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0.4}} initial = 'disappear' animate =  {mainControls} >  Next.js </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 0.4}} initial = 'disappear' animate =  {mainControls} > MongoDB </motion.div>
     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0.6}} initial = 'disappear' animate =  {mainControls} >  TypeScript </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 0.6}} initial = 'disappear' animate =  {mainControls} >  Express.js </motion.div>
     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0.8}} initial = 'disappear' animate =  {mainControls} >  REST APIs </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 0.8}} initial = 'disappear' animate =  {mainControls} >  TypeScript </motion.div>
      <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1}} initial = 'disappear' animate =  {mainControls} >    PHP </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 1}} initial = 'disappear' animate =  {mainControls} > Next.js   </motion.div>
      <motion.div  className='bg-black text-white  px-1 lg:px-3.5 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} >  Redux </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} >  REST APIs </motion.div>
 
     
    
@@ -75,22 +75,22 @@ const Skills = () => {
  
 
 <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} > Bootstrap </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} > JavaScript </motion.div>
     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.4}} initial = 'disappear' animate =  {mainControls} >  Tailwind CSS </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 1.4}} initial = 'disappear' animate =  {mainControls} > MySQL </motion.div>
     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.6}} initial = 'disappear' animate =  {mainControls} > Material-UI</motion.div>
+    transition = {{duration: 2, type :'spring', delay: 1.6}} initial = 'disappear' animate =  {mainControls} > Python</motion.div>
     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.6}} initial = 'disappear' animate =  {mainControls} >  HTML/CSS  </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 1.6}} initial = 'disappear' animate =  {mainControls} >  Bootstrap  </motion.div>
     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.8}} initial = 'disappear' animate =  {mainControls} >  Python </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 1.8}} initial = 'disappear' animate =  {mainControls} >  Tailwind CSS </motion.div>
      <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 2}} initial = 'disappear' animate =  {mainControls} >  MySQL </motion.div>
+    transition = {{duration: 2, type :'spring', delay: 2}} initial = 'disappear' animate =  {mainControls} >  HTML/CSS </motion.div>
     
      </div>
 
      <h1 className='font-bold text-2xl mt-10 mb-3'> Crafting Cool Web Experiences </h1>
-     <div  className='text-lg'  > Hoi! I am Aparna, a frontend wizard who fell head over heels for programming. It all started with a spark of curiosity, 
+     <div  className='text-lg'  > Hoi! I am Aparna, a full-stack wizard who fell head over heels for programming. It all started with a spark of curiosity, 
       and now I am obsessed with crafting sleek, interactive web apps and websites. 
       I thrive on building user interfaces that are not just functional but also seriously cool. Let's create something amazing together!</div>
 

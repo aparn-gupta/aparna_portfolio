@@ -5,7 +5,7 @@ import  { motion, useAnimation, useInView } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
-const Anime = () => {
+const ChatBot = () => {
 
   const ref = useRef(null)
   const inView =  useInView(ref)
@@ -69,7 +69,7 @@ transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' a
  
 </div>
 
-<div className='flex'> <Link  to= "https://github.com/aparn-gupta/AI-Fashion-Assistant" ><motion.div whileHover = {{x: 64}}  transition = {{type: 'spring', stiffness: 400,   duration: 1}} whileFocus = {{scale: 1.5}}   >   <button className=' h-14 w-36 mt-8 
+<div className='flex'> <Link  to= "https://github.com/aparn-gupta/AI-Fashion-Assistant" target='_blank' ><motion.div whileHover = {{scale: 1.19}}  transition = {{type: 'spring', stiffness: 400,   duration: 1}}  >   <button className=' h-14 w-36 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white text-lg hover:text-black font-bold
   hover:border-black hover:border-2    '> Github <OpenInNewIcon  /> </button>  </motion.div> </Link>
@@ -78,7 +78,7 @@ transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' a
    </div>
 
 
-  <Link to = "https://ai-fashion-assistant.vercel.app/" >  <img src= {image5}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
+  <Link to = "https://ai-fashion-assistant.vercel.app/" target='_blank' >  <img src= {image5}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
 
 
 
@@ -92,4 +92,4 @@ transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' a
   )
 }
 
-export default Anime
+export default ChatBot

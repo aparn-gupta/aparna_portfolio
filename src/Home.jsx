@@ -1,29 +1,33 @@
+import React from 'react';
 import Skills from './skills';
 import Projects from './Projects';
 import Edtech from './Edtech';
-import Restapi from './Restapi';
-import Anime from './Anime';
+import WeatherApp from './WeatherApp';
+import ChatBot from './ChatBot';
 import Experience from './Experience';
 import Footer from './Footer';
 import Navbar from './navbar';
 import Contact from './Contact';
 import Networking from './Networking';
 import Gnews from './News';
-
+import Gadgets from './Gadgets';
 
 
 const Home = () => {
   return (
     <div>
 
-<div className="">
+<div className=''>
 <Navbar />
       <Skills/>
 
-   <Projects /> 
-   <Restapi />
-   <Anime />
+   <Projects />
+   <Gadgets />
+   <ChatBot />
+   
+ 
    <Gnews />
+   <WeatherApp />
    
   
    <Networking />  
