@@ -72,7 +72,7 @@ const Experience = () => {
 
 
     <div>
-    <h2 className='mt-12 text-3xl font-bold lg:w-96'> Full-Stack Developer Intern </h2>
+    <h2 className='mt-12 text-3xl font-bold w-full ' > Full-Stack Developer Intern </h2>
     
     <motion.div  ref= {ref} className = 'block lg:hidden h-1 w-2 border-t-8 border-lime-400 mb-6 mt-4' variants = {{short: {width: 20 }, long: {width: 325} }} intial = "short"  animate = {borderanime} transition = {{type: 'spring', duration: 8, stiffness: 400 }} > </motion.div>
     <motion.div  ref= {ref} className = 'hidden lg:block h-1 w-2 border-t-8 border-lime-400 mb-6' variants = {{short: {width: 20 }, long: {width: 550} }} intial = "short"  animate = {borderanime} transition = {{type: 'spring', duration: 8, stiffness: 400 }} > </motion.div>
