@@ -1,4 +1,3 @@
-import React from 'react';
 import Skills from './skills';
 import Projects from './Projects';
 import Edtech from './Edtech';
@@ -17,11 +16,11 @@ const Home = () => {
   return (
     <div>
 
-<div className=''>
+<div className="">
 <Navbar />
       <Skills/>
 
-   <Projects />
+   <Projects /> 
    <Restapi />
    <Anime />
    <Gnews />
