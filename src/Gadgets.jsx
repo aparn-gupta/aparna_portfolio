@@ -43,7 +43,13 @@ const Gadgets = () => {
 <li>
 <span className='font-bold'>CRUD operations:</span> Built GET, POST, PATCH and DELETE apis using Node.js on Express Server to post, fetch, update and delete gadgets. </li> 
 <li>
-<span className='font-bold'>User-Centric Design:</span> Fully responsive and visually appealing interface, implementing parallex effect, appropriate animatations and bakcdrop filters</li> </ul> </div>
+<span className='font-bold'>User-Centric Design:</span> Fully responsive and visually appealing interface, implementing parallex effect, appropriate animatations and bakcdrop filters</li> 
+
+<li>
+<span className='font-bold'>File Storage and fetching:</span> Integrated Cloudinary for efficient file storage and retrieval.
+</li> 
+</ul> 
+</div>
 
 <div className='flex  mt-12' ref={ref}>
 
