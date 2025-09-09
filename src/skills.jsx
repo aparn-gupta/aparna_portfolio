@@ -135,4 +135,4 @@ export default Skills
 // <motion.div  className = "text-red-600 font-bold text-4xl w-28 bg-green-500 "   variants = {{
 //   appear : {opacity : 1, scale: 2 },
 //   disappear: {opacity: 0, scale: 0.5 }
-// }} initial = "disappear" animate = "appear"   transition = {{duration: 4, type: 'spring'}} > Hello  </motion.div>
+// }} initial = "disappear" animate = "appear"   transition = {{duration: 4, type: 'spring'}} > Hello  </motion.div> 
