@@ -38,7 +38,7 @@ const Gadgets = () => {
  <ul>
 <li> <span className='font-bold'> Relevant data posting: </span> Users can post and view new gadget for resale. </li>
 <li>
- <span className='font-bold'> NoSQL database  </span> Integrated MongoDB database for storing user data.
+ <span className='font-bold'> NoSQL database:  </span> Integrated MongoDB database for storing user data.
 </li>
 <li>
 <span className='font-bold'>CRUD operations:</span> Built GET, POST, PATCH and DELETE apis using Node.js on Express Server to post, fetch, update and delete gadgets. </li> 

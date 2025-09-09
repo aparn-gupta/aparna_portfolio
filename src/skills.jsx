@@ -1,138 +1,286 @@
-import React from 'react'
-import image1 from './assets/Aparna.jpg';
-import { motion, useAnimation, useInView } from 'framer-motion';
-import { useEffect, useRef } from 'react';
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import { Link } from 'react-router-dom';
-
-
+import React from "react";
+import image1 from "./assets/Aparna.jpg";
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useEffect, useRef } from "react";
+import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import { Link } from "react-router-dom";
 
 const Skills = () => {
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: false });
 
-  const ref = useRef(null)
-  const inView =  useInView(ref, {once: false})
+  const mainControls = useAnimation();
 
-  const mainControls = useAnimation()
-
-  useEffect( () => {
+  useEffect(() => {
     if (inView) {
-      mainControls.start("appear")
+      mainControls.start("appear");
     }
-  } , [inView] )
+  }, [inView]);
 
+  const handleContact = () => {
+    window.scrollTo({
+      top: document.getElementById("contacts").offsetTop,
+      behavior: "smooth",
+    });
+  };
 
-    const handleContact = () => {
-      window.scrollTo({
-        top: document.getElementById("contacts").offsetTop,
-        behavior :'smooth'
-      })
-    }
-
-    const handleMail = () => {
-      window.location.href = "mailto:aparnagupta813@gmail.com?subject=Hello%20there"
-     }
- 
-
-
-
+  const handleMail = () => {
+    window.location.href =
+      "mailto:aparnagupta813@gmail.com?subject=Hello%20there";
+  };
 
   return (
-    
-    <div  ref = {ref} className='w-screen flex justify-center  pt-16 lg:pt-28 bg-gradient-to-b from-slate-50 to-lime-50'>
-     <div className='w-11/12 lg:w-4/5  lg:flex lg:justify-between'>   
+    <div
+      ref={ref}
+      className="w-screen flex justify-center  pt-16 lg:pt-28 bg-gradient-to-b from-slate-50 to-lime-50"
+    >
+      <div className="w-11/12 lg:w-4/5  lg:flex lg:justify-between">
+        {/* <img src= {image1}  className='w-5/6 lg:w-1/3 h-96 object-cover rounded-2xl mb-16 lg:mb-0'/> */}
+        <div className="flex justify-center lg:block">
+           
+          <img
+            src={image1}
+            className="w-5/6 lg:w-3/4 h-96 object-cover rounded-2xl mb-16 lg:mb-0"
+          />
+        </div>
 
-   
-     {/* <img src= {image1}  className='w-5/6 lg:w-1/3 h-96 object-cover rounded-2xl mb-16 lg:mb-0'/> */}
-   <div className='flex justify-center lg:block'>   <img src= {image1}  className='w-5/6 lg:w-3/4 h-96 object-cover rounded-2xl mb-16 lg:mb-0'/>
-   </div>
+        <div className=" w-full lg:w-3/4  ">
+          <div className="flex justify-between  text-skills md:text-lg">
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-3.5 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              React.js 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0.2 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              Node.js 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0.4 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              MongoDB 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0.6 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              Express.js 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0.8 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              TypeScript 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              Next.js 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-3.5 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.2 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              REST APIs 
+            </motion.div>
+          </div>
 
-     <div className=' w-full lg:w-3/4  '>
+          <div className="flex justify-between mt-3  text-skills lg:text-lg">
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.2 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              JavaScript 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.4 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              MySQL 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.6 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              Python
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.6 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              Bootstrap 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.8 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              Tailwind CSS 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 2 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              HTML/CSS 
+            </motion.div>
+          </div>
 
-    <div className='flex justify-between  text-skills md:text-lg'>
-  
+          <h1 className="font-bold text-2xl mt-10 mb-3">
+             
+            Crafting Cool Web Experiences 
+          </h1>
+          <div className="text-lg">
+             
+            Hoi! I am Aparna, a full-stack wizard who fell head over heels for
+            programming. It all started with a spark of curiosity, and now I am
+            obsessed with crafting sleek, interactive web apps and websites. I
+            thrive on building user interfaces that are not just functional but
+            also seriously cool. Let's create something amazing together!
+          </div>
 
-     
-    <motion.div  className='bg-black text-white  px-1 lg:px-3.5 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0}} initial = 'disappear' animate =  {mainControls} >  React.js </motion.div>
-    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0.2}} initial = 'disappear' animate =  {mainControls} >  Node.js </motion.div>
-    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0.4}} initial = 'disappear' animate =  {mainControls} > MongoDB </motion.div>
-    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0.6}} initial = 'disappear' animate =  {mainControls} >  Express.js </motion.div>
-    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 0.8}} initial = 'disappear' animate =  {mainControls} >  TypeScript </motion.div>
-     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1}} initial = 'disappear' animate =  {mainControls} > Next.js   </motion.div>
-     <motion.div  className='bg-black text-white  px-1 lg:px-3.5 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} >  REST APIs </motion.div>
-
-    
-   
-    </div>
-
-    <div className='flex justify-between mt-3  text-skills lg:text-lg'>
- 
-
-<motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.2}} initial = 'disappear' animate =  {mainControls} > JavaScript </motion.div>
-    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.4}} initial = 'disappear' animate =  {mainControls} > MySQL </motion.div>
-    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.6}} initial = 'disappear' animate =  {mainControls} > Python</motion.div>
-    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.6}} initial = 'disappear' animate =  {mainControls} >  Bootstrap  </motion.div>
-    <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 1.8}} initial = 'disappear' animate =  {mainControls} >  Tailwind CSS </motion.div>
-     <motion.div  className='bg-black text-white  px-1 lg:px-4 py-2 '  variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity: 1, scale: 1 }   }} 
-    transition = {{duration: 2, type :'spring', delay: 2}} initial = 'disappear' animate =  {mainControls} >  HTML/CSS </motion.div>
-    
-     </div>
-
-     <h1 className='font-bold text-2xl mt-10 mb-3'> Crafting Cool Web Experiences </h1>
-     <div  className='text-lg'  > Hoi! I am Aparna, a full-stack wizard who fell head over heels for programming. It all started with a spark of curiosity, 
-      and now I am obsessed with crafting sleek, interactive web apps and websites. 
-      I thrive on building user interfaces that are not just functional but also seriously cool. Let's create something amazing together!</div>
-
-        <div className='flex  w-full lg:w-3/4 justify-between'> 
-
-        <button className=' h-14 mt-8 
+          <div className="flex  w-full 2xl:w-5/6  justify-between">
+            <button
+              className=" h-14 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white font-xl hover:text-black font-bold
-  hover:border-black hover:border-2  px-8 mr-2'  onClick = {handleMail}  > Get in Touch! </button>
-
-
-
-         <Link to= '/aboutme#top' > <button className=' h-14 px-4 mt-8 
+  hover:border-black hover:border-2  px-8 mr-2"
+              onClick={handleMail}
+            >
+               
+              Get in Touch! 
+            </button>
+            <a href="/Resume_Aparna.pdf" download="Resume_Aparna.pdf">
+              <div
+                className=" h-14 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white font-xl hover:text-black font-bold
-  hover:border-black hover:border-2  '> View Licenses and Certifications  <ArrowRightAltIcon /> </button></Link>
+  hover:border-black hover:border-2  px-8 mr-2 flex justify-center items-center"
+              >
+                 
+                <div>Download Resume</div> 
+              </div>
+            </a>
+
   
-          {/* <motion.div  onClick = {handleContact}  className = 'mb-6 font-bold text-lg text-lime-700 mt-12 w-32' whileHover = {{borderBottom : "6px solid #a3e635" }} transition = {{type: 'spring', duration: 2, stiffness: 400 }} > Get in Touch ? </motion.div> */}
-        
-        
-         </div>
-        
+            <Link to="/aboutme#top">
+               
+              <button
+                className=" h-14 px-4 mt-8 
+ hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
+  hover:from-lime-600 hover:to-slate-600 text-white font-xl hover:text-black font-bold
+  hover:border-black hover:border-2  "
+              >
+                 
+                View Licenses and Certifications <ArrowRightAltIcon /> 
+              </button>
+            </Link>
 
-
-   
-
-    
-
-     </div>
-
-
-     </div>
-      
+            {/* <motion.div  onClick = {handleContact}  className = 'mb-6 font-bold text-lg text-lime-700 mt-12 w-32' whileHover = {{borderBottom : "6px solid #a3e635" }} transition = {{type: 'spring', duration: 2, stiffness: 400 }} > Get in Touch ? </motion.div> */}
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
-
-
+export default Skills;
 
 // <motion.div  className = "text-red-600 font-bold text-4xl w-28 bg-green-500 "   variants = {{
 //   appear : {opacity : 1, scale: 2 },
 //   disappear: {opacity: 0, scale: 0.5 }
-// }} initial = "disappear" animate = "appear"   transition = {{duration: 4, type: 'spring'}} > Hello  </motion.div> 
+// }} initial = "disappear" animate = "appear"   transition = {{duration: 4, type: 'spring'}} > Hello  </motion.div>
