@@ -1,5 +1,5 @@
 import React from 'react'
-import image1 from './Aparna.jpg';
+import image1 from './assets/Aparna.jpg';
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';

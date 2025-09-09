@@ -1,5 +1,5 @@
 import React from 'react';
-import image3 from './hyggex.png';
+import image3 from './assets/hyggex.png';
 import { Link } from 'react-router-dom';
 import { motion, useInView, useAnimation  } from 'framer-motion';
 import { useEffect, useRef } from 'react';

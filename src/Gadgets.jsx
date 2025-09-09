@@ -1,5 +1,5 @@
 import React from 'react';
-import image7 from './gadget-img.png';
+import image7 from './assets/gadget-img.png';
 import { Link } from 'react-router-dom';
 import { motion, useInView, useAnimation  } from 'framer-motion';
 import { useEffect, useRef } from 'react';

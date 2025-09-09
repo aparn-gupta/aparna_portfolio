@@ -1,11 +1,12 @@
 import React from 'react';
-import image5 from './assets/image5.jpeg';
 import { Link } from 'react-router-dom';
 import  { motion, useAnimation, useInView } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import image from './assets/innernote.png'
 
-const ChatBot = () => {
+
+const FaceApi = () => {
 
   const ref = useRef(null)
   const inView =  useInView(ref)
@@ -30,46 +31,47 @@ const ChatBot = () => {
    <div className=' w-full lg:w-1/2 '>
   
 
-<h2 className='mt-8 text-3xl font-bold '> AI Fashion Assistant </h2>
+<h2 className='mt-8 text-3xl font-bold '> InnerNote </h2>
 <motion.div ref = {ref}  className = " hidden lg:block w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 <motion.div ref = {ref}  className = " block lg:hidden w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 <div> 
-  <p className='mb-3'> A chat application using the Gemini API that serves as a 
-    virtual fashion assistant, designed to help users with a wide range 
-    of fashion-related queries. The application provides personalized fashion
-     advice, recommendations, and answers to common fashion questions  </p>
- <ul>
-<li> <span className='font-semibold '> API Integration:</span>    Utilizes the Gemini API to process and respond to 
-  fashion-related questions, demonstrating proficiency in integrating third-party services. </li>
-<li> <span className='font-semibold '> User-Friendly Interface: </span>  
- Designed with an intuitive interface to ensure smooth and engaging interactions.
+  <p className='mb-3'> A full-stack journaling app designed to demonstrate end-to-end authentication and security  </p>
+ <ul className='list-disc'>
+<li> Implemented <strong>Face API integration</strong> for biometric authentication, enabling <strong>face login</strong> for enhanced privacy. </li>
+<li> Secured user accounts with <strong>JWT-based token authentication</strong> and <strong>password hashing (bcrypt)</strong> for robust account management.
 </li>
 {/* <li>
 Fashion Advice & Recommendations: Offers tailored fashion suggestions based on user 
 inquiries, helping users make informed style choices.</li> */}
 
-<li> <span className='font-semibold '> Ongoing Improvement:</span> Currently working on implementing streaming chat 
-  functionality to create a more dynamic and conversational experience.</li>
+<li> Designed and implemented <strong>RESTful APIs</strong> for notes management and integrated proper error handling and validation.</li>
+{/* <li> Built a clean, responsive frontend with a simple user experience focused on personal reflection and privacy.</li> */}
+
+<li> Deployed on AlwaysData, simulating <strong>production server handling</strong> and demonstrating skills in <strong>full-stack app deployment and hosting</strong>.</li>
+<li>Covers key aspects of <strong>modern authentication flows, secure data handling, deployment</strong>, and <strong>production-ready full-stack development practices</strong>.</li>
+
 
  </ul> </div>
 
 <div className='flex   text-xs lg:text-lg mt-12' ref={ref}>
 
 <motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
-transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'disappear' animate = {mainControls} > Next.js </motion.div> 
+transition = {{type: 'spring', duration: 2, delay: 0}} initial = 'disappear' animate = {mainControls} > Node.js </motion.div> 
 
   <motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
-transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'disappear' animate = {mainControls} > REST APIs </motion.div>
+transition = {{type: 'spring', duration: 2, delay: 0.2}} initial = 'disappear' animate = {mainControls} > Express.js</motion.div>
 <motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
-transition = {{type: 'spring', duration: 2, delay: 0.4}} initial = 'disappear' animate = {mainControls} > Tailwind CSS </motion.div>
+transition = {{type: 'spring', duration: 2, delay: 0.4}} initial = 'disappear' animate = {mainControls} > MySQL </motion.div>
 <motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
-transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' animate = {mainControls} > Axios </motion.div>
+transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' animate = {mainControls} > TypeScript </motion.div>
+<motion.div className = 'bg-lime-400  px-2.5 lg:px-4 py-1.5 mr-2' variants = {{disappear: {opacity: 0, scale: 0.4}, appear: {opacity : 1, scale: 1}}}
+transition = {{type: 'spring', duration: 2, delay: 0.8}} initial = 'disappear' animate = {mainControls} > React </motion.div>
    
 
  
 </div>
 
-<div className='flex'> <Link  to= "https://github.com/aparn-gupta/AI-Fashion-Assistant" target='_blank' ><motion.div whileHover = {{scale: 1.19}}  transition = {{type: 'spring', stiffness: 400,   duration: 1}}  >   <button className=' h-14 w-36 mt-8 
+<div className='flex'> <Link  to= "https://github.com/aparn-gupta/facial_recognition-backend" target='_blank' ><motion.div whileHover = {{scale: 1.19}}  transition = {{type: 'spring', stiffness: 400,   duration: 1}}  >   <button className=' h-14 w-36 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white text-lg hover:text-black font-bold
   hover:border-black hover:border-2    '> Github <OpenInNewIcon  /> </button>  </motion.div> </Link>
@@ -78,7 +80,7 @@ transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' a
    </div>
 
 
-  <Link to = "https://ai-fashion-assistant.vercel.app/" target='_blank' >  <img src= {image5}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
+  <Link to = "https://innernote.alwaysdata.net/" target='_blank' >  <img src= {image}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
 
 
 
@@ -92,4 +94,4 @@ transition = {{type: 'spring', duration: 2, delay: 0.6}} initial = 'disappear' a
   )
 }
 
-export default ChatBot
+export default FaceApi

@@ -1,5 +1,5 @@
 import React from 'react';
-import image7 from './weather.png';
+import image7 from './assets/weather.png';
 import { Link } from 'react-router-dom';
 import { motion, useInView, useAnimation  } from 'framer-motion';
 import { useEffect, useRef } from 'react';

@@ -1,5 +1,5 @@
 import React from 'react'
-import image2 from './Fbss.png';
+import image2 from './assets/Fbss.png';
 import { Link } from 'react-router-dom';
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { useEffect, useRef } from 'react';

@@ -1,5 +1,5 @@
 import React from 'react';
-import image8 from './GnewsSnip.png';
+import image8 from './assets/GnewsSnip.png';
 import { Link } from 'react-router-dom';
 import { motion, useInView, useAnimation  } from 'framer-motion';
 import { useEffect, useRef } from 'react';

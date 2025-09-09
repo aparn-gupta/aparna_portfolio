@@ -11,6 +11,7 @@ import Contact from './Contact';
 import Networking from './Networking';
 import Gnews from './News';
 import Gadgets from './Gadgets';
+import FaceApi from './FaceApi';
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Skills/>
 
    <Projects />
+   <FaceApi />
    <Gadgets />
    <ChatBot />
    
