@@ -26,7 +26,7 @@ const Gadgets = () => {
   return (
     <div className=' w-screen flex justify-center bg-gradient-to-b from-slate-50 to-lime-50'>
     <div className='w-5/6   lg:w-3/4 lg:flex justify-between'>
-    <Link to = "https://gadgets-f14x.vercel.app/" target='_blank' >  <img src= {image7}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
+    <Link to = "https://gadgets-9icq.vercel.app/" target='_blank' >  <img src= {image7}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
 
    <div className='w-full lg:w-1/2'>
   
