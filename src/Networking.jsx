@@ -28,8 +28,11 @@ const Networking = () => {
             <div className='w-full lg:w-1/2'>
             <h2 className='mt-8 text-3xl font-bold '> InterAct: Networking App</h2>
 <motion.div ref = {referr}  className = "hidden lg:block  w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
-<motion.div ref = {referr}  className = "block lg:hidden  w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
-<div>  <p className='mb-2.5' >A networking web app with design inspired by Facebook 
+<motion.div ref = {referr}  className = "block lg:hidden  w-2 h-1 border-t-8 border-lime-400 " variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
+<div> 
+<div className='text-slate-500 text-sm my-3'> Apr 24 - May 24 </div>
+
+   <p className='mb-2.5' >A networking web app with design inspired by Facebook 
 using React and used advanced features like hooks, creating an 
 interactive user interface. Implemented simulated authentication, 
 and dynamic user interactions.</p>

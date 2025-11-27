@@ -33,8 +33,13 @@ const Gadgets = () => {
 
 <h2 className='mt-8 text-3xl font-bold '> Ultimate Gadgeting: Gadget Resale App (MERN Project) </h2>
 <motion.div ref = {ref}  className = "hidden lg:block w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
-<motion.div ref = {ref}  className = "block lg:hidden  w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
-<div> <p className='mb-3'> A gadget reselling website that allows users to post new gadgets with details for other users to see it and contact them.  </p>
+<motion.div ref = {ref}  className = "block lg:hidden  w-2 h-1 border-t-8 border-lime-400 " variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
+<div>
+
+<div className='text-slate-500 text-sm my-3'> Feb 25 - Mar 25 </div>
+
+  
+   <p className='mb-3'> A gadget reselling website that allows users to post new gadgets with details for other users to see it and contact them.  </p>
  <ul>
 <li> <span className='font-bold'> Relevant data posting: </span> Users can post and view new gadget for resale. </li>
 <li>

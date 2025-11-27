@@ -35,6 +35,9 @@ const FaceApi = () => {
 <motion.div ref = {ref}  className = " hidden lg:block w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 490] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 <motion.div ref = {ref}  className = " block lg:hidden w-2 h-1 border-t-8 border-lime-400 mb-8" variants = {{shorten: {width: 16}, enlarge:{width: [50, 100, 150, 200,  250, 315] } }}  intital = 'shorten' animate  = {borderanime} transition = {{type: 'spring', duration: 10, stiffness: 300 }}  > </motion.div>
 <div> 
+
+<div className='text-slate-500 text-sm my-3'> Jul 25 - Aug 25 </div>
+
   <p className='mb-3'> A full-stack journaling app designed to demonstrate end-to-end authentication and security  </p>
  <ul className='list-disc'>
 <li> Implemented <strong>Face API integration</strong> for biometric authentication, enabling <strong>face login</strong> for enhanced privacy. </li>
