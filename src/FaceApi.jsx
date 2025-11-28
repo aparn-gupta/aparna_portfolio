@@ -43,16 +43,14 @@ const FaceApi = () => {
 <li> Implemented <strong>Face API integration</strong> for biometric authentication, enabling <strong>face login</strong> for enhanced privacy. </li>
 <li> Secured user accounts and content-privacy with <strong>JWT-based token authentication</strong> and <strong>password hashing </strong> for robust account management.
 </li>
-{/* <li>
-Fashion Advice & Recommendations: Offers tailored fashion suggestions based on user 
-inquiries, helping users make informed style choices.</li> */}
+
 
 <li> Designed and implemented <strong>RESTful APIs</strong> for notes management and integrated proper error handling and validation.</li>
 {/* <li> Built a clean, responsive frontend with a simple user experience focused on personal reflection and privacy.</li> */}
 
-<li> Deployed on Alwaysdata, simulating <strong>production server handling</strong> and demonstrating skills in <strong>full-stack app deployment and hosting</strong>.</li>
-<li>Covers key aspects of <strong>modern authentication flows, secure data handling </strong> and <strong> monolithic fullstack architecture.</strong>
-{/* , and <strong>production-ready full-stack development practices</strong>. */}
+<li> 		Implemented <strong>end-to-end full-stack deployment</strong> on Vercel using its automated <strong>CI/CD pipeline</strong>, demonstrating <strong>modern authentication flows</strong>, <strong>secure data handling</strong> practices, and a robust <strong>monolithic full-stack architecture</strong>.
+
+
 </li>
 
 
@@ -85,7 +83,7 @@ transition = {{type: 'spring', duration: 2, delay: 0.8}} initial = 'disappear' a
    </div>
 
 
-  <Link to = "https://innernote.alwaysdata.net/" target='_blank' >  <img src= {image}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
+  <Link to = "https://innernote.vercel.app/" target='_blank' >  <img src= {image}  className='w-96 h-72 mt-20 border-2 border-slate-100 rounded-2xl  object-contain hover:shadow-2xl' /> </Link>
 
 
 
