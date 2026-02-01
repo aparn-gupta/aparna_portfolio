@@ -244,7 +244,7 @@ const Skills = () => {
                
               Get in Touch! 
             </button>
-            <a href="/Resume_AparnaGupta_updated (1).pdf" download="Resume_Aparna.pdf">
+            <a href="/Resume__AparnaGupta.pdf" download="Resume_AparnaGupta.pdf">
               <div
                 className=" h-14 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
