@@ -139,6 +139,7 @@ const Skills = () => {
             </motion.div>
           </div>
 
+
           <div className="flex justify-between mt-3  text-skills lg:text-lg">
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
@@ -217,6 +218,94 @@ const Skills = () => {
             >
                
               HTML/CSS 
+            </motion.div>
+          </div>
+
+
+
+
+             <div className="flex justify-between mt-3  text-skills lg:text-lg">
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.2 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+               
+              PostgreSQL
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.4 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              Django  
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.6 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+
+              Docker 
+               
+              
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.6 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              
+               Docker Compose
+             
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.8 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+              Prisma ORM 
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 2 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+               
+             Redis
             </motion.div>
           </div>
 
