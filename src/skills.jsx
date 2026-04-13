@@ -37,7 +37,6 @@ const Skills = () => {
       <div className="w-11/12 lg:w-4/5  lg:flex lg:justify-between">
         {/* <img src= {image1}  className='w-5/6 lg:w-1/3 h-96 object-cover rounded-2xl mb-16 lg:mb-0'/> */}
         <div className="flex justify-center lg:block">
-           
           <img
             src={image1}
             className="w-5/6 lg:w-3/4 h-96 object-cover rounded-2xl mb-16 lg:mb-0"
@@ -56,8 +55,19 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
-               
-              React.js 
+              React.js
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0.1 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              Node.js
             </motion.div>
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
@@ -69,8 +79,19 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
-               
-              Node.js 
+              MongoDB
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0.3 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              Express.js
             </motion.div>
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
@@ -82,9 +103,23 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
-               
-              MongoDB 
+              TypeScript
             </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0.5 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              Next.js
+            </motion.div>
+          </div>
+
+          <div className="flex justify-between mt-3  text-skills lg:text-lg">
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
               variants={{
@@ -95,8 +130,19 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
-               
-              Express.js 
+              JavaScript
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 0.7 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              MySQL
             </motion.div>
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
@@ -108,8 +154,7 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
-               
-              TypeScript 
+              Python
             </motion.div>
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
@@ -117,28 +162,37 @@ const Skills = () => {
                 disappear: { opacity: 0, scale: 0.4 },
                 appear: { opacity: 1, scale: 1 },
               }}
-              transition={{ duration: 2, type: "spring", delay: 1 }}
+              transition={{ duration: 2, type: "spring", delay: 0.9 }}
               initial="disappear"
               animate={mainControls}
             >
-               
-              Next.js 
+              Bootstrap
             </motion.div>
             <motion.div
-              className="bg-black text-white  px-1 lg:px-3.5 py-2 "
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
               variants={{
                 disappear: { opacity: 0, scale: 0.4 },
                 appear: { opacity: 1, scale: 1 },
               }}
-              transition={{ duration: 2, type: "spring", delay: 1.2 }}
+              transition={{ duration: 2, type: "spring", delay: 1.0 }}
               initial="disappear"
               animate={mainControls}
             >
-               
-              REST APIs 
+              Tailwind CSS
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.1 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              HTML/CSS
             </motion.div>
           </div>
-
 
           <div className="flex justify-between mt-3  text-skills lg:text-lg">
             <motion.div
@@ -151,92 +205,6 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
-               
-              JavaScript 
-            </motion.div>
-            <motion.div
-              className="bg-black text-white  px-1 lg:px-4 py-2 "
-              variants={{
-                disappear: { opacity: 0, scale: 0.4 },
-                appear: { opacity: 1, scale: 1 },
-              }}
-              transition={{ duration: 2, type: "spring", delay: 1.4 }}
-              initial="disappear"
-              animate={mainControls}
-            >
-               
-              MySQL 
-            </motion.div>
-            <motion.div
-              className="bg-black text-white  px-1 lg:px-4 py-2 "
-              variants={{
-                disappear: { opacity: 0, scale: 0.4 },
-                appear: { opacity: 1, scale: 1 },
-              }}
-              transition={{ duration: 2, type: "spring", delay: 1.6 }}
-              initial="disappear"
-              animate={mainControls}
-            >
-               
-              Python
-            </motion.div>
-            <motion.div
-              className="bg-black text-white  px-1 lg:px-4 py-2 "
-              variants={{
-                disappear: { opacity: 0, scale: 0.4 },
-                appear: { opacity: 1, scale: 1 },
-              }}
-              transition={{ duration: 2, type: "spring", delay: 1.6 }}
-              initial="disappear"
-              animate={mainControls}
-            >
-               
-              Bootstrap 
-            </motion.div>
-            <motion.div
-              className="bg-black text-white  px-1 lg:px-4 py-2 "
-              variants={{
-                disappear: { opacity: 0, scale: 0.4 },
-                appear: { opacity: 1, scale: 1 },
-              }}
-              transition={{ duration: 2, type: "spring", delay: 1.8 }}
-              initial="disappear"
-              animate={mainControls}
-            >
-               
-              Tailwind CSS 
-            </motion.div>
-            <motion.div
-              className="bg-black text-white  px-1 lg:px-4 py-2 "
-              variants={{
-                disappear: { opacity: 0, scale: 0.4 },
-                appear: { opacity: 1, scale: 1 },
-              }}
-              transition={{ duration: 2, type: "spring", delay: 2 }}
-              initial="disappear"
-              animate={mainControls}
-            >
-               
-              HTML/CSS 
-            </motion.div>
-          </div>
-
-
-
-
-             <div className="flex justify-between mt-3  text-skills lg:text-lg">
-            <motion.div
-              className="bg-black text-white  px-1 lg:px-4 py-2 "
-              variants={{
-                disappear: { opacity: 0, scale: 0.4 },
-                appear: { opacity: 1, scale: 1 },
-              }}
-              transition={{ duration: 2, type: "spring", delay: 1.2 }}
-              initial="disappear"
-              animate={mainControls}
-            >
-               
-               
               PostgreSQL
             </motion.div>
             <motion.div
@@ -245,12 +213,35 @@ const Skills = () => {
                 disappear: { opacity: 0, scale: 0.4 },
                 appear: { opacity: 1, scale: 1 },
               }}
+              transition={{ duration: 2, type: "spring", delay: 1.3 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              Django
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
               transition={{ duration: 2, type: "spring", delay: 1.4 }}
               initial="disappear"
               animate={mainControls}
             >
-               
-              Django  
+              Docker
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.5 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              Docker Compose
             </motion.div>
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
@@ -262,25 +253,23 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
+              Prisma ORM
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.7 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              Redis
+            </motion.div>
+          </div>
 
-              Docker 
-               
-              
-            </motion.div>
-            <motion.div
-              className="bg-black text-white  px-1 lg:px-4 py-2 "
-              variants={{
-                disappear: { opacity: 0, scale: 0.4 },
-                appear: { opacity: 1, scale: 1 },
-              }}
-              transition={{ duration: 2, type: "spring", delay: 1.6 }}
-              initial="disappear"
-              animate={mainControls}
-            >
-              
-               Docker Compose
-             
-            </motion.div>
+          <div className="flex justify-between mt-3  text-skills lg:text-lg">
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
               variants={{
@@ -291,8 +280,19 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
-               
-              Prisma ORM 
+              Material UI
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-3.5 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.9 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              REST APIs
             </motion.div>
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
@@ -304,17 +304,62 @@ const Skills = () => {
               initial="disappear"
               animate={mainControls}
             >
-               
-             Redis
+              AWS (EC2, Lambda, S3, DynamoDB, RDS)
             </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 2.1 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              React Native
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 2.2 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              WebSockets
+            </motion.div>
+            {/* <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 1.8 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              Prisma ORM
+            </motion.div>
+            <motion.div
+              className="bg-black text-white  px-1 lg:px-4 py-2 "
+              variants={{
+                disappear: { opacity: 0, scale: 0.4 },
+                appear: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 2, type: "spring", delay: 2 }}
+              initial="disappear"
+              animate={mainControls}
+            >
+              Redis
+            </motion.div> */}
           </div>
 
           <h1 className="font-bold text-2xl mt-10 mb-3">
-             
-            Crafting Cool Web Experiences 
+            Crafting Cool Web Experiences
           </h1>
           <div className="text-lg">
-             
             Hoi! I am Aparna, a full-stack wizard who fell head over heels for
             programming. It all started with a spark of curiosity, and now I am
             obsessed with crafting sleek, interactive web apps and websites. I
@@ -330,32 +375,30 @@ const Skills = () => {
   hover:border-black hover:border-2  px-8 mr-2"
               onClick={handleMail}
             >
-               
-              Get in Touch! 
+              Get in Touch!
             </button>
-            <a href="/Resume__AparnaGupta.pdf" download="Resume_AparnaGupta.pdf">
+            <a
+              href="/Resume__AparnaGupta.pdf"
+              download="Resume_AparnaGupta.pdf"
+            >
               <div
                 className=" h-14 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white font-xl hover:text-black font-bold
   hover:border-black hover:border-2  px-8 mr-2 flex justify-center items-center"
               >
-                 
-                <div>Download Resume</div> 
+                <div>Download Resume</div>
               </div>
             </a>
 
-  
             <Link to="/aboutme#top">
-               
               <button
                 className=" h-14 px-4 mt-8 
  hover:shadow-2xl border-slate-100 bg-gradient-to-br from-slate-600 to bg-lime-600
   hover:from-lime-600 hover:to-slate-600 text-white font-xl hover:text-black font-bold
   hover:border-black hover:border-2  "
               >
-                 
-                View Licenses and Certifications <ArrowRightAltIcon /> 
+                View Licenses and Certifications <ArrowRightAltIcon />
               </button>
             </Link>
 
