@@ -282,7 +282,7 @@ const Skills = () => {
             >
               Material UI
             </motion.div>
-            <motion.div
+            {/* <motion.div
               className="bg-black text-white  px-1 lg:px-3.5 py-2 "
               variants={{
                 disappear: { opacity: 0, scale: 0.4 },
@@ -293,7 +293,7 @@ const Skills = () => {
               animate={mainControls}
             >
               REST APIs
-            </motion.div>
+            </motion.div> */}
             <motion.div
               className="bg-black text-white  px-1 lg:px-4 py-2 "
               variants={{
